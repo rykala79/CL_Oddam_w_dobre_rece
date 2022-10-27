@@ -1,0 +1,10 @@
+.btn {
+    padding: 0.4rem 1rem;
+    color: $col_darkgray;
+    cursor: pointer;
+    border: 1px solid transparent;
+   &:hover,
+  &:active {
+    border: 1px solid $col_gray;
+  }
+}
