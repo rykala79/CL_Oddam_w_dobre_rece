@@ -1,6 +1,7 @@
 import React from "react";
+import Register from "../Register/Register"
 import Navigation from "../Navigation";
-import heroImage from "../../assets/HeroImage.jpg";
+import heroImage from "../../assets/HeroImage.png";
 import Link from 'react-scroll'
 
 
@@ -9,6 +10,7 @@ export default function HomeHeader() {
     <header className="headerContainer" id="header">
       <div className="navContainer">
         <div className="headerNav">
+          <Register/>
           <Navigation />
         </div>
       </div>
@@ -23,16 +25,13 @@ export default function HomeHeader() {
             Oddaj niechciane rzeczy w zaufane rece
           </h2>
 
-          {/* <div className="buttonsContainer">
-                    <Link to="/logowanie">
-                        <button className="btn">Oddaj rzeczy</button>
-                    </Link>
+           <div className="buttonsContainer">
+            
+              <button className="btn">ODDAJ RZECZY</button>
+              <button className="btn">ZORGANIZUJ ZBIORKE</button>
+            
+          </div> 
 
-                    <Link to="/logowanie">
-                        <button className="btn">Zorganizuj Zbiorke</button>
-                    </Link>
-
-                </div> */}
         </div>
       </div>
     </header>
