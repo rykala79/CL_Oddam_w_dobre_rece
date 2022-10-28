@@ -1,0 +1,21 @@
+.simpleSteps {
+  padding: 7% 0;
+  text-align: center;
+
+  .simpleSteps__fourSteps {
+    display: flex;
+    justify-content: center;
+
+    padding: 3%;
+
+    .fourSteps__step {
+      text-align: center;
+      width: 10%;
+    }
+  }
+
+  button {
+    width: 18%;
+    min-width: fit-content;
+  }
+}

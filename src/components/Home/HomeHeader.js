@@ -1,8 +1,8 @@
 import React from "react";
-import Register from "../Register/Register"
+import LoginRegister from "../LoginRegister/LoginRegister"
 import Navigation from "../Navigation";
-import heroImage from "../../assets/HeroImage.png";
-import Link from 'react-scroll'
+import heroImage from "../../assets/Hero Image@2x.png";
+
 
 
 export default function HomeHeader() {
@@ -10,7 +10,7 @@ export default function HomeHeader() {
     <header className="headerContainer" id="header">
       <div className="navContainer">
         <div className="headerNav">
-          <Register/>
+          <LoginRegister/>
           <Navigation />
         </div>
       </div>

@@ -1,0 +1,32 @@
+.threeColumns {
+    display: flex;
+    justify-content: space-around;
+    padding: 4%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .threeColumns__column {
+        width: 25%;
+        text-align: center;
+
+        .column__number {
+
+            font-size: 3rem;
+
+
+
+            .column__title {
+                font-size: 1.125rem;
+                text-transform: uppercase;
+
+                font-weight: 400;
+            }
+
+            .column__description {
+                font-weight: 300;
+                line-height: 1.6;
+            }
+        }
+    }
+
+}
