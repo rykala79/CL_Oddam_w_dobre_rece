@@ -1,21 +1,51 @@
-.simpleSteps {
+.fourSteps {
   padding: 7% 0;
   text-align: center;
 
-  .simpleSteps__fourSteps {
+  .fourSteps-title {
+    font-size: 2.376rem;
+    padding: 0 2rem;
+  }
+
+  .decoration {
+    margin: 20px auto;
+  }
+
+  .fourSteps-Steps {
     display: flex;
     justify-content: center;
-
+    background-color: $col-background;
     padding: 3%;
+    margin-bottom: 30px;
 
-    .fourSteps__step {
+    .fourSteps-step {
       text-align: center;
       width: 10%;
+
+      &:not(:last-child) {
+        margin-right: 7%;
+      }
+
+      .step-icon {
+        margin: 0 auto 10px;
+      }
+
+      .step-title {
+        font-size: 1.125rem;
+
+        &::after {
+          display: block;
+          content: "";
+          height: 1px;
+          background-color: #707070;
+          width: 40%;
+          margin: 10px auto;
+        }
+      }
     }
   }
 
   button {
     width: 18%;
-    min-width: fit-content;
   }
 }

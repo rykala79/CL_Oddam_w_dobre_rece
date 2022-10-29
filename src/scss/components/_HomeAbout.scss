@@ -1,27 +1,40 @@
 .aboutUs {
+  display: flex;
+
+  .about-column {
+    width: 50%;
+  }
+
+  .aboutUs-aboutText {
     display: flex;
-     }
+    flex-direction: column;
+    text-align: center;
+    padding: 10% 8%;
+    background-color: $col-background;
 
+    .aboutText-title {
+      font-size: 2.375rem;
+    }
 
+    .separator {
+      margin: 2rem 0;
+    }
 
+    .aboutText-description {
+      font-size: 1.875rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
 
+    .aboutText-signature {
+      align-self: end;
+      width: 40%;
+    }
+  }
 
-
-     .aboutUs__aboutImage {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url(../images/about.jpg);
-        width: 50%;
-        height: 100vh;
-        position: relative;
-        z-index: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: #fff;
-        text-align: center;
-        padding: 0 2rem;
-        
-         }
+  .aboutUs-aboutImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left -150px bottom;
+  }
+}

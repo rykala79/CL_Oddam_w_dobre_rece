@@ -1,21 +1,20 @@
 import React from "react";
 import HomeHeader from "./HomeHeader";
-import HomeAbout from "./HomeAbout";
 import HomeThreeColumns from "./HomeThreeColumns";
-import HomeContact from "./HomeContact";
 import HomeFourSteps from "./HomeFourSteps";
+import HomeAbout from "./HomeAbout";
 import HomeWhoWeHelp from "./HomeWhoWeHelp";
-
+import HomeContact from "./HomeContact";
 
 export default function Home() {
   return (
     <>
-      <HomeHeader />
-      <HomeAbout />
-      <HomeThreeColumns />
-      <HomeContact />
-      <HomeFourSteps />
-      <HomeWhoWeHelp />
+      <HomeHeader/>
+      <HomeThreeColumns/>
+      <HomeFourSteps/>
+      <HomeAbout/>
+      <HomeWhoWeHelp/>
+      <HomeContact/>
     </>
   );
 }
