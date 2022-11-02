@@ -7,15 +7,15 @@
     }
   
     .decoration {
-      margin: 10px auto;
+      margin: 20px auto 30px;
     }
   
     .whoWeHelp-navigation {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
+     // flex-wrap: wrap;
       align-items: center;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
   
       .whoWeHelp-link {
         width: 20%;
@@ -29,7 +29,7 @@
   
         .whoWeHelp-button {
           width: 100%;
-          min-width: fit-content;
+         // min-width: fit-content;
           font-size: 1.5rem;
         }
       }

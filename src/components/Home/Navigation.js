@@ -6,18 +6,18 @@ export default function Navigation() {
     return (
         <nav className="Nav-Main">
             <Link to="#">
-                <button className="btn btn-active">Start</button>
+                <button className="btn btn-a">Start</button>
             </Link>
-            <Link to="fourSteps" duration={500}>
+            <Link to="fourSteps">
                 <button className="btn">O co chodzi?</button>
             </Link>
-            <Link to="aboutUs" duration={500}>
+            <Link to="aboutUs" >
                 <button className="btn">O nas</button>
             </Link>
-            <Link to="whoWeHelp" duration={500}>
+            <Link to="whoWeHelp" >
                 <button className="btn">Fundacja i organizacje</button>
             </Link>
-            <Link to="contact" duration={500}>
+            <Link to="contact" >
                 <button className="btn">Kontakt</button>
             </Link>
         </nav>

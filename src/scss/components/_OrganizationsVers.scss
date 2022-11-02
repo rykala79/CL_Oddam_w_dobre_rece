@@ -1,0 +1,35 @@
+.helpPage-organization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-alt;
+  
+  
+    &:not(:last-child) {
+      border-bottom: 1px solid $col-gray;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .organization-description {
+      text-align: start;
+      margin-right: 20px;
+  
+      .description-title {
+        font-size: 1.625rem;
+        font-weight: 300;
+      }
+  
+      .description-text {
+        font-size: 1.125rem;
+        font-weight: 300;
+        font-style: italic;
+      }
+    }
+  
+    .organisation-thingsTogether {
+      font-size: 1.125rem;
+      font-weight: 300;
+      text-align: end;
+    }
+  }

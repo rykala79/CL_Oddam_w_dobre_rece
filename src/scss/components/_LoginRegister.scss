@@ -1,0 +1,10 @@
+.login {
+    font-size: 0.875rem;
+    color: $col-darkgray;
+    text-align: end;
+    margin-bottom: 10px;
+  
+    a:not(:last-child) {
+      margin-right: 10px;
+    }
+  }

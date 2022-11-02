@@ -10,7 +10,7 @@ import {Link} from "react-router-dom";
             </Link>
 
             <Link to="/rejestracja">
-            <button className="btn">Zaloz konto</button>
+            <button className="btn btn-a btn-yellow">Zaloz konto</button>
             </Link>
 
       </div>
