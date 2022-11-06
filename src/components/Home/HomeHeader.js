@@ -7,18 +7,18 @@ import { Link } from "react-router-dom";
 
 export default function HomeHeader() {
   return (
-    <header className="header-Container">
-      <div className="header-Container-NavBox">
+    <header className="header-container">
+      <div className="header-container-navBox">
         <LoginRegister />
         <Navigation />
       </div>
 
       <div
-        className="hero-Container"
+        className="hero-container"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="hero-Text">
-          <h2 className="welcome-Text">
+        <div className="hero-text">
+          <h2 className="welcome-text">
             Zacznij pomagac!
             <br />
             Oddaj niechciane rzeczy w zaufane rece

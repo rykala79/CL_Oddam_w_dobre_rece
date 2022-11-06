@@ -18,7 +18,7 @@ function App() {
         <Route path="*" element={<Home />} />
         <Route path="/oddaj rzeczy" element={<Form />} />
         <Route path="/logowanie" element={<Login />} />
-        <Route path="/wyloguj" element={<Logout />} />
+        <Route path="/wylogowano" element={<Logout />} />
         <Route path="/rejestracja" element={<Register />} /> 
       </Routes>
     </>

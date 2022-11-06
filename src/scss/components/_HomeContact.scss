@@ -18,6 +18,14 @@
       .decoration {
         margin: 0 auto 40px;
       }
+
+      .form-successMessage {
+        text-align: center;
+        margin-bottom: 20px;
+        color: green;
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
   
       .form-personalData {
         display: flex;
@@ -46,6 +54,12 @@
         text-align: start;
         width: 100%;
         margin-bottom: 30px;
+      }
+
+      .error-message {
+        color: red;
+        margin-top: 5px;
+        font-size: 0.8rem;
       }
   
     }

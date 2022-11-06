@@ -1,37 +1,62 @@
- 
+.login {
 
-.form-Inputs {
-    margin: 10px 40px ;
+  .login-register-nav {
+    margin: 20px 40px;
+  }
+
+  .login-register-form {
+
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    padding: 0 20px;
+    width: 35%;
+    align-items: center;
+  }
+
+  .form-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
     text-align: center;
-    
-  
-    label {
-      font-size: 1rem;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-  
-    input,
-    textarea {
-      border: none;
-      border-bottom: 1px solid $col-gray;
-      background: none;
-      padding: 0 0 3px 0;
-  
-      &.invalid {
-        border-bottom: 1px solid red;
+  }
+
+  .decoration {
+    margin-bottom: 40px;
+  }
+
+
+  .form-inputs {
+    width: 80%;
+    background-color: $col-background;
+    padding: 7% 10% 3%;
+    margin-bottom: 30px;
+
+    .inputs {
+      display: flex;
+      flex-direction: column;
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
       }
-  
-      &:focus {
-        outline: none;
-      }
-  
-      &::placeholder {
-        color: #3C3C3C26;
-      }
+      .error-message {
+        color: red;
+        margin-top: 10px;
+        font-size: 0.8rem;
+        visibility: hidden;
+
+        &.visible {
+          visibility: visible;
+        }
+      
     }
-  
-    textarea {
-      resize: none;
-    }
+  }
+ }
+
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
   }

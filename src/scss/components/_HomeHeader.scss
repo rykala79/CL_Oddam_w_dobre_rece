@@ -1,25 +1,26 @@
-.header-Container {
+.header-container {
   text-align: end;
   width: 100%;
-  padding: 10px 0;
+  padding: 10px  142px 10px 0;
   box-shadow: 0px -1px 18px -7px rgba(66, 68, 90, 1);
 
-.NavBox {
+  
+.navBox {
   position: absolute;
   right: 0;
   z-index: 10;
   margin: 20px 40px;
-  text-align: start;
+  
 }
 
-.hero-Container {
+.hero-container {
   display: flex;
   justify-content: end;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 900px bottom;
+  background-position: right 1050px bottom;
 
-  .hero-Text {
+  .hero-text {
     text-align: center;
     padding: 250px 150px 200px;
   }
@@ -28,7 +29,7 @@
     margin-right: 5%;
   }
 
-  .welcome-Text {
+  .welcome-text {
     font-size: 2.375rem;
     font-weight: 400;
     margin-bottom: 20px;
@@ -37,6 +38,11 @@
   .decoration {
     margin: 0 auto 50px;
   }
+
+  .buttonsBox {
+    display: flex;
+    justify-content: space-between;
+     }
 
   button {
     width: 45%;
